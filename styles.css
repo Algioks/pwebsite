@@ -4,3 +4,75 @@ h1 {
     font-family: Arial, sans-serif;
 }
 /* Add more styles as needed */
+
+/* styles.css */
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header navigation */
+header {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background-image: linear-gradient(to bottom, #333, #111);
+    color: #fff;
+}
+
+/* About section */
+.about-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+/* Portfolio section */
+.portfolio-section {
+    padding: 4rem 0;
+}
+
+.project {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact section */
+.contact-section {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #222;
+    color: #fff;
+}
